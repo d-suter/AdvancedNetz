@@ -1,18 +1,3 @@
-Sure, here is a sample README file that you can include with your Chrome extension to guide users on how to install it using Developer Mode:
-
----
-
-# Durchschnitt Chrome Extension Installation Guide
-
-This README provides instructions on how to manually install the Durchschnitt Chrome Extension using Developer Mode. This extension automatically calculates and displays the average of numerical values found on the specified webpage.
-
-## Prerequisites
-
-Before installing the extension, ensure that you have:
-
-- Google Chrome browser installed.
-- Downloaded the 'Durchschnitt' folder from the repository.
-
 ## Installation Steps
 
 1. **Open Google Chrome**: Launch the Google Chrome browser on your computer.
