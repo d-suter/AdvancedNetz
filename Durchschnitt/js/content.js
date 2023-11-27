@@ -1,6 +1,6 @@
 // Function to calculate the average and respond to the popup
 function calculateAverage(sendResponse) {
-  var regexPattern = /\b\d+\.\d{3}\b/g; // Matches numbers like 4.000, 5.600, 5.000, etc.
+  var regexPattern = /\b\d+\.\d{3}\b/g;
   var grades = document.body.innerText.match(regexPattern);
   var average = null;
 
