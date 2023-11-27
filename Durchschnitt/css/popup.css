@@ -2,18 +2,18 @@ body {
   width: 300px;
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif; /* Change to your preferred font */
-  background-color: #0078d7; /* Entire background is blue */
-  color: #ffffff; /* White text color for better contrast */
+  font-family: "Arial", sans-serif;
+  background-color: #0078d7;
+  color: #ffffff;
   text-align: center;
 }
 
 #average-display {
   padding: 20px;
-  margin: 0; /* Remove margin to extend to full width */
-  border: none; /* Remove borders */
-  border-radius: 0; /* Remove rounded corners for a full-width look */
+  margin: 0; 
+  border: none;
+  border-radius: 0;
   font-size: 1.4em;
-  font-weight: bold; /* Make the font bold */
-  box-shadow: none; /* Remove box shadow for a flat design */
+  font-weight: bold; 
+  box-shadow: none; 
 }

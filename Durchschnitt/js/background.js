@@ -1,4 +1,4 @@
-let currentAverage = null; // Variable to store the current average
+let currentAverage = null;
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   console.log("Message received from content script:", message);
@@ -8,12 +8,10 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
     console.log("New average stored:", currentAverage);
   }
 
-  // Confirm that message has been received and handled
   sendResponse({ status: "Average updated" });
   return true;
 });
 
-// Respond to the popup's request for the average
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   if (message.type === "getAverage") {
     console.log("Popup requested the average:", currentAverage);
