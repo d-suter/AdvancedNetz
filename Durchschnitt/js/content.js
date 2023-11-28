@@ -10,10 +10,10 @@ function calculateAverage(sendResponse) {
       0
     );
     average = sum / grades.length / 1000; // Correct for the removed dot and calculate average
-    console.log("Calculated Durchschnitt:", average);
+    console.log("Calculated Average:", average);
     sendResponse({ average: average });
   } else {
-    console.log("No grades found to calculate a Durchschnitt.");
+    console.log("No grades found to calculate a Average.");
     sendResponse({ average: null });
   }
 }
