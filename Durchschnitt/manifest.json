@@ -1,8 +1,7 @@
-
 {
     "manifest_version": 2,
-    "name": "Grade Average Calculator",
-    "description": "Automatically calculates and displays the average grade.",
+    "name": "AdvancedNetz",
+    "description": "Calculates the Average Grades",
     "version": "1.0",
     "permissions": [
         "activeTab",
